@@ -5,13 +5,20 @@ body, html {
 }
 
 .container {
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('photo1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Цвет текста */
+    text-align: center; /* Центрируем текст по центру экрана */
+    font-size: 24px; /* Размер шрифта */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-image: url('photo1.jpg');
-    background-size: cover;
 }
 
 #footer {
